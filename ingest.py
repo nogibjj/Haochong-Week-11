@@ -32,14 +32,3 @@ schema = StructType(
   ]
 )
 
-(spark.readStream
-  .format("cloudFiles")
-  .schema(schema)
-  .option("cloudFiles.format", "csv")
-  .option("sep","\t")
-  .load(file_path)
-  .writeStream
-  .option("checkpointLocation", checkpoint_path)
-  .trigger(availableNow=True)
-  .toTable(table_name)
-)
