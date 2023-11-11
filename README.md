@@ -1,37 +1,37 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
-
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+# Haochong-week10-mini-repo [![CI](https://github.com/nogibjj/Haochong-Week-11/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Haochong-Week-11/actions/workflows/cicd.yml)
+This is a repo template for course 706_Data_Engineering Week 11 Mini Project. I used databricks to create a data pipeline.
 
 
+# Purpose
+- Create a data pipeline using Databricks
+- Include at least one data source and one data sink
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
 
-Things included are:
+## Preparation 
+1. Open Databricks and create a new cluster
+2. Create new notebooks and attach it to the cluster
 
-* `Makefile`
+![Alt text](overview.png)
 
-* `Pytest`
+## Ingest the raw data
 
-* `pandas`
+![Alt text](ingest.png)
 
-* `Ruff`:  
+## Preapare the raw data
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+![Alt text](prepare.png)
 
-* `Dockerfile`
+## Query the data
 
-* `GitHub copilot`
+![Alt text](query.png)
 
-* `jupyter` and `ipython` 
+## workflow successed
 
-* A base set of libraries for devops and web
-
-* `githubactions`
+![Alt text](workflow-1.png)
 
 ## References
 
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+https://docs.databricks.com/en/getting-started/data-pipeline-get-started.html
 
 
 
